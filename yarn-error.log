@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/PostgreSQL/12/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Nilton Filho do Rei/:/mnt/c/Android/Sdk/emulator:/mnt/c/Android/Sdk/tools:/mnt/c/Android/Sdk/tools/bin:/mnt/c/Android/Sdk/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/ProgramData/chocolatey/lib/Elixir/bin:/mnt/c/ProgramData/chocolatey/lib/Elixir/bin:/mnt/c/ProgramData/chocolatey/lib/Elixir/bin:/mnt/c/Users/Nilton Filho do Rei/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nilton Filho do Rei/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/tools/dart-sdk/bin:/mnt/c/Users/Nilton Filho do Rei/AppData/Roaming/Pub/Cache/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/mongo/bin:/mnt/c/Users/Nilton Filho do Rei/AppData/Local/Yarn/bin:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/Nilton Filho do Rei/AppData/Roaming/npm:/mnt/c/flutter/bin:/mnt/c/Users/Nilton Filho do Rei/AppData/Local/nvs/:/mnt/c/Program Files/Multipass/bin:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.18.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/home/george/.cache/yarn/v6/npm-esbuild-linux-64-0.13.8-0092fc8a064001a777bfa0e3b425bb8be8f96e6a-integrity/node_modules/esbuild-linux-64/.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "web",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "react": "^17.0.0",
+      "react-dom": "^17.0.0"
+    },
+    "devDependencies": {
+      "@types/react": "^17.0.0",
+      "@types/react-dom": "^17.0.0",
+      "@vitejs/plugin-react": "^1.0.0",
+      "typescript": "^4.3.2",
+      "vite": "^2.6.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
